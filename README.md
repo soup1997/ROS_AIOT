@@ -1,6 +1,6 @@
 # ROS_AIOT
-AIOT 플랫폼을 이용한 ROS 구현
+AIOT 플랫폼을 이용한 ROS 자율주행 구현
 
-1. Encoder, Stereo Camera 미장착
-2. LiDAR와 IMU만을 이용하여 Localization 수행
-3. 주행성능 개선 필요
+1. Motor Encoder, Stereo Camera 미장착
+2. 2D LiDAR와 IMU만을 이용하여 Localization 수행
+3. /odom 고정 프레임, /pointcloud 2D LiDAR로 추정
