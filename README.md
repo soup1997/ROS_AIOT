@@ -1,7 +1,7 @@
 # ROS_AIOT
 AIOT 플랫폼을 이용한 ROS 자율주행 구현
 
-* IMU값을 받아오기 위한 python library smbus이용   
+# IMU값을 받아오기 위한 python library smbus이용 
 ![image](https://user-images.githubusercontent.com/86957779/159165886-1cf1ae51-df86-4939-94c9-626fc5b58701.png)   
 ![image](https://user-images.githubusercontent.com/86957779/159165966-e4577683-e1a6-448c-9a49-3aa6dccf5a78.png)   
   * Laser scan mather node는 LiDAR데이터와 IMU 데이터를 받아 실제공간과 매치 유사도를 측정   
@@ -12,12 +12,12 @@ AIOT 플랫폼을 이용한 ROS 자율주행 구현
   * 빨간색 화살표는 현재 추정 위치를 나타냄
   * 보라색 화살표는 IMU의 Yaw값을 나타냄
 
-* 최종적인 결과는 다음과 같음
+# Result
 ![image](https://user-images.githubusercontent.com/86957779/159166171-d1769e71-cbe3-4ee0-b28e-ef3412275100.png)
   * Map Server에서 SLAM으로 작성한 Map을 AMCL에 제공
   * RplidarNode에서 AMCL에 /LaserScan, /Pointcloud2 제공
-  * move_base는 데이터를 통합하여, global plan, local plan을 실행하고 최종 결과로 cmd_vel 출력   
-* 문제점
+  * move_base는 데이터를 통합하여, global plan, local plan을 실행하고 최종 결과로 cmd_vel 출력        
+# Problems
   1. 모터 엔코더가 장착되지 않아 라이다에 매우 의존적
   2.  이로인해 로봇이 이동할 경우 현재 위치 추정치가 발산하여 Localization결과와 실제 위치와 큰 오차 발생
   3.  AMCL은 PointCloud2와 모터 엔코더와 같이 사용할 경우 개선된 Localization이 가능함. 
