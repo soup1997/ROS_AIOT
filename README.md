@@ -4,8 +4,8 @@ AIOT 플랫폼을 이용한 ROS 자율주행 구현
 # 개발환경
 |Platform|Controller|Version|  
 |------|---|---|
-|Hanback electronics AIOT|Jetson Xavier NX|Ubuntu18.04 LTS, ROS Melodic|  
-![17801b61bc9549bf3c87573db98124ac](https://user-images.githubusercontent.com/86957779/163716288-54f3a271-0dc5-4a75-902b-0936ce2f8ac8.jpg)
+|Hanback electronics AIOT ![17801b61bc9549bf3c87573db98124ac](https://user-images.githubusercontent.com/86957779/163716288-54f3a271-0dc5-4a75-902b-0936ce2f8ac8.jpg)|Jetson Xavier NX|Ubuntu18.04 LTS, ROS Melodic|  
+
 
 # IMU값을 받아오기 위한 python library smbus이용 
 ![image](https://user-images.githubusercontent.com/86957779/159165886-1cf1ae51-df86-4939-94c9-626fc5b58701.png)   
