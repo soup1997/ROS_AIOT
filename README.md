@@ -1,6 +1,3 @@
-# ROS_AIOT
-AIOT 플랫폼을 이용한 ROS 자율주행 구현
-
 # 개발환경
 |Platform|Controller|Version|  
 |------|---|---|
